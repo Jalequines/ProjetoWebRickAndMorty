@@ -5,15 +5,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px;
+    margin: 30px; 
 }
+
 
 .logo img{
     width: 265px;
     height: 115px;    
 }
 
-.login button{
+.login button {
     color:white;
     font-weight: 700;
     font-size: xx-large;
@@ -21,6 +22,7 @@ header {
     width: 320px;
     border-radius: 30px;
     background-color: #4BB257;
+    margin-right: 20px;
 }
 
 .container{
@@ -53,30 +55,25 @@ header {
     height: 460px;
     border-radius: 30px;
     background-color: seagreen
-    
-}
+    }
 
-.container{
-    
-.personagens-img img{
+.container{    
+.personagens-img img
     width: 240px;
     height: 172px;
     border-radius: 30px;
-   
-}
+   }
 
 .episodios-img img{
     width: 240px;
     height: 172px; 
     border-radius: 30px;
-   
-}
+   }
 
 .citacoes-img img{
     width: 240px;
     height: 172px;
-    border-radius: 30px;    
-   
+    border-radius: 30px;       
 }
 
 
@@ -85,7 +82,7 @@ header {
     height: 172px;
     border-radius: 30px;  
 }
-}
+
 
 .vertudo button{
     color:white;
@@ -95,7 +92,6 @@ header {
     height: 34px;
     border-radius: 30px;
     background-color: #4BB257;
-
 }
 
 .portal{
@@ -110,6 +106,8 @@ header {
     font-size: xxx-large;
     height: 90px;
     width: 300px;
+    display: block;
+    margin: 20px auto 0 auto;
     border-radius: 30px;
     background-color: #4BB257;  
     justify-content: center;
@@ -121,8 +119,7 @@ header {
     width: 410px;
     border-radius: 20px;
     background-color: #4BB257;
-    animation: muda-button 3s infinite;
-       
+    animation: muda-button 3s infinite;       
 }
 
 
